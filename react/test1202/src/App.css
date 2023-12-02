@@ -1,0 +1,17 @@
+*{margin: 0;padding: 0;}
+.App {
+  padding-top: 30px;
+  text-align: center;
+}
+
+img{width: 327px;}
+
+h1{margin-bottom: 30px;font-size: 18px;}
+h2{margin-bottom: 30px;font-size: 14px;}
+
+.evt_bnr{background: #958474;padding:20px 0;text-align: center;}
+.evt_bnr p{font-size: 16px;color:#fff;}
+.evt_bnr strong{font-size: 24px;color:#efb4ac}
+
+dl{margin-bottom: 30px;}
+dl dt{margin:15px 0}
