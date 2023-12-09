@@ -1,0 +1,9 @@
+
+img{display: block;width: 100%;}
+.App{width: 1200px;margin: 0 auto;display: flex;justify-content: space-between;}
+.imgBox{border:1px solid #ccc;width: 283px;}
+.imgBox img{height: 208px;overflow: hidden;}
+.imgBox .textBox{padding:15px;box-sizing: border-box;word-break: keep-all;}
+.imgBox h4{height: 42px;}
+.imgBox .hash{font-size: 14px;height: 57px;color:#a1a1a1;}
+.imgBox p strong{font-size: 22px;}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>객체(object)data</title>
+</head>
+<body>
+    <p>객체(object) => 여러개의 속성 data를 하나의 객체변수에 저장하는 data형</p>
+    <ol>
+        <li>객체를 만드는 방법(선언)</li>
+        <ol>
+            <li>string 변수명 = {
+                속성(index key)값(data),    
+                속성(index key)값(data),    
+                속성(index key)값(data),    
+                속성(index key)값(data), 
+                함수:function(){
+
+                }   
+            }</li>
+            <li>
+                let 객체 data 변수= {} 
+            </li>
+            <li>
+                let 객체변수 = new Object{}
+            </li>
+        </ol>
+
+        <li>객체변수 안에 데이터를 호출하는 방법</li>
+        <ol>
+            <li>객체명.key(객체명.index)</li>
+            <li>객체명[indexkey]</li>
+        </ol>
+    </ol>
+
+    <script>
+        //객체선언
+        let score = {
+            kor : 100,
+            eng : 90,
+            mat : 80,
+            sci : 70,
+        }
+
+        // 객체 변수에 data 접근
+        console.log('국어점수=' + score.kor);
+
+        console.log(`영어점수=  ${score.eng}`);
+        console.log(`수학점수=  ${score.mat}`);
+        console.log(`과학점수=  ${score.sci}`);
+
+        console.log(`객체data=  ${score}`);
+
+        console.log(`국어점수 =  ${score['kor']}`);
+        console.log(`영어점수 =  ${score['eng']}`);
+        console.log(`수학점수 =  ${score['mat']}`);
+        console.log(`과학점수 =  ${score['sci']}`);
+
+        let book = {
+            book1 : '미드나잇 라이브러리',
+            book2 : '매트 헤이그',
+            book3 : '14,220원',
+            book4 : '2021-04-28',
+            book5 : 408,
+            book6 : '9791191056556(1191056554)',
+        }
+
+        console.log(`책 제목 : ${book['book1']}`);
+        console.log(`저자 : ${book['book2']}`);
+        console.log(`가격 : ${book['book3']}`);
+        console.log(`출간일 : ${book['book4']}`);
+        console.log(`페이지 수 : ${book['book5']}`);
+        console.log(`ISBN : ${book['book6']}`);
+    </script>
+</body>
+</html>
