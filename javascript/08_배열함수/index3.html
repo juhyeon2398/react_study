@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열객체(filter,find)</title>
+</head>
+<body>
+    <script>
+        //filter (배열로 반환)
+        const phone = [
+            {name:'gallexy', brand: 'samsung'},
+            {name:'gram', brand: 'lg'},
+            {name:'gram', brand: 'lg'},
+            {name:'iphone', brand: 'apple'},
+            {name:'gallexyNote', brand: 'samsung'},
+            {name:'ipad', brand: 'apple'},
+            {name:'grampad', brand: 'lg'},
+            {name:'imac', brand: 'apple'},
+            {name:'iphone', brand: 'apple'},
+        ];
+
+        const newPhone = phone.filter((el) => {
+            return el.brand == 'samsung';
+        })
+        const applePhone = phone.filter((el) => {
+            return el.name == 'iphone';
+        })
+        console.log('applePhone:', applePhone)
+        console.log('newPhone:', newPhone)
+
+        // find (객체로 반환)
+        const newDevice = phone.find((el) =>{
+            return el.brand === "apple";
+        })
+        console.log('newDevice:', newDevice)
+    </script>
+</body>
+</html>

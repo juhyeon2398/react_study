@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const irum = ['홍길동', '한만종', '서태영', '강대위', '김영준',
+            '김규식', '김태호', '김효신', '손효준', '김현승', '김재하', '김유나',
+            '김재훈', '김혜선', '김민환', '김규리', '김소원', '김우재', '최영준',
+            '김태순', '김종훈', '김성환', '김승용', '김지혜', '이승욱', '김도현',
+            '김승규', '윤하은', '김유진', '김정민', '김혜정', '김예진', '김여진',
+            '김성희', '김혜수', '김인선', '김상필', '김혜진', '서상원', '김상혜',
+            '이만기', '송병진', '김유림'];
+
+        let kimArray = irum.filter((el,idx) =>{
+            return el[0] == "김"
+        })
+        
+        let otherArray = irum.filter((el,idx) =>{
+            return el[0] != "김"
+        })
+        console.log('kimArray:', kimArray)
+        console.log('otherArray:', otherArray)
+    </script>
+</body>
+</html>

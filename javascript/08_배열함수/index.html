@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열함수(foreach)</title>
+</head>
+<body>
+    <script>
+        const member = ['지나','하은','주현','효정','건','원문', '은화','일태'];
+        const firstName = ['김','김','박','봉','위','이','장','전']
+
+        for (let i = 0; i < member.length; i++) {
+            console.log(`"${member[i]}"님이 로그인하셨습니다.`)
+            
+        }
+
+        firstName.forEach((el,idx,arr) => {
+            for (let i = 0; i < firstName.length; i++) {
+                console.log(`${arr[idx]}${member[idx]}님이 로그인하셨습니다.`)
+            }
+        })
+    
+    </script>
+</body>
+</html>

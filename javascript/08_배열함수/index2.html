@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>배열함수(map)</title>
+</head>
+<body>
+    <script>
+        const member = ['지나','하은','주현','효정','건','원문', '은화','일태'];
+        const firstName = ['김','김','박','봉','위','이','장','전'];
+
+        member.map(function(el,idx){
+            console.log(`${idx}번째 ${el}님이 로그인하셨습니다.`)
+        })
+        
+        member.map((el,idx) => console.log(`${idx}번째 ${el}님이 로그인하셨습니다.`))
+
+
+        //foreach와 차이점
+        const fullName = member.map((el,idx)=>{
+            return firstName[idx]+el;
+        })
+        console.log('fullName:', fullName)
+
+
+        console.log("======================= 테스트 =======================")
+        const test =['YUMMY','COUNT','ABSOLUTE','SOUND','REACT'];
+
+
+        let answer =  test.map((el,idx)=> el[idx])
+        console.log('answer:', answer)
+        //출력
+    </script>
+</body>
+</html>

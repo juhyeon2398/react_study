@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function test(x,y){
+            return x*y;
+        }
+
+        console.log(test(10,10));
+
+
+        //익명함수(변수에 보관 함수)
+        let test2 = function(x,y){
+            return x*y;   
+        }
+
+        let result = test(40,10);
+        console.log('result:', result)
+
+        let test3 = new Function('x','y','return x*y');
+        console.log('test3(30,30):', test3(30,30))
+
+        let test10 = (x,y) => {
+            return x*y;
+        }
+        console.log('test10:', test10(40,40))
+
+
+        (function(){
+            console.log("100*100");
+        })
+    </script>
+</body>
+</html>
