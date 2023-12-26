@@ -1,0 +1,14 @@
+header{position: fixed;left: 0;top: 0;}
+body {
+  position: relative;
+  height: 100%;
+}
+.mainWrap{height: 100vh;overflow: hidden;}
+.mySwiper{height: 100%}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{height: 100%;}
+
+.mainVisual{background: #222; width: 100%; height: 100%;}
