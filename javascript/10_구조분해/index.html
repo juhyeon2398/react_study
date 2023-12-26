@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구조분해</title>
+</head>
+<body>
+    <script>
+        //비구조화 할당 : 배열이나 객체 값을 각각의 변수로 따로 해제하는 기능
+        const furit = ['사과','딸기','바나나','수박','토마토'];
+        // let furit0 = furit[0];
+        // let furit1 = furit[1];
+        // let furit2 = furit[2];
+        // let furit3 = furit[3];
+        // let furit4 = furit[4];
+
+
+        const [furit1,furit2,furit3,furit4,furit5] = furit;
+        console.log('furit1:', furit1)
+        console.log('furit2:', furit2)
+        console.log('furit3:', furit3)
+        console.log('furit4:', furit4)
+        console.log('furit5:', furit5)
+    </script>
+</body>
+</html>

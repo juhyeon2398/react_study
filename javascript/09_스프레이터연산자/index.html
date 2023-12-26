@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스프레이트오퍼레이터</title>
+</head>
+<body>
+    <script>
+        //배열이나 객체를 복사/추가/변경
+        const fruit = ['사과','딸기','수박','포도'];
+        const fruit2 = ['체리','바나나','키위','오렌지'];
+
+        //배열을 복사
+        const newFruit = [...fruit];
+        console.log('newFruit:', newFruit)
+
+        //배열을 복사하면서 값을 추가
+        const newFruit2 = [...fruit2,'토마토'];
+        console.log('newFruit2:', newFruit2)
+
+        //배열 결합
+        const fruit12 = [...fruit,...fruit2];
+        console.log('fruit12:', fruit12)
+
+        const num = [1,2,3,4,5]
+        console.log('num:', ...num)
+    </script>
+</body>
+</html>

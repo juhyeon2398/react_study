@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나머지</title>
+</head>
+<body>
+    <script>
+        //배열
+        const furit = ['사과','딸기','바나나','수박','토마토'];
+        const [fru1,fru2,...rest] = furit;
+        console.log('rest:', rest)
+        console.log('fru2:', fru2)
+        console.log('fru1:', fru1)
+
+        //객체
+
+        const person = {
+            name:'홍길동',
+            age: 20,
+            address:'종로',
+        }
+        const {name,...rest2} = person;
+        console.log('rest2:', rest2)
+        console.log('name:', name)
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구조분해할당(기본값)</title>
+</head>
+<body>
+    <script>
+        //배열
+        const furit = ['사과','딸기'];
+        const [f01,f02,f03] = furit;
+        console.log('f03:', f03)
+        console.log('f02:', f02)
+        console.log('f01:', f01)
+
+        //객체
+        const person = {
+            name:'홍길동',
+            age: 20,
+        }
+       const {name,age,address='강남구'}= person;
+       console.log('address:', address)
+       console.log('age:', age)
+       console.log('name:', name)
+
+    </script>
+</body>
+</html>

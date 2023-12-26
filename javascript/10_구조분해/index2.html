@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구조화분해할당</title>
+</head>
+<body>
+    <script>
+        const person = {
+            name:'홍길동',
+            age: 20,
+            address:'종로',
+        }
+        let irum = person.name;
+        let nai = person.age;
+        let juso = person.address;
+        
+        console.log('irum :', irum )
+        console.log('nai:', nai)
+        console.log('juso:', juso)
+
+        const {name,age,address} = person;
+        console.log('address:', address)
+        console.log('age:', age)
+        console.log('name:', name)
+    </script>
+</body>
+</html>
