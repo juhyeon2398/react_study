@@ -1,0 +1,13 @@
+*{padding: 0;margin: 0;}
+
+.App{background:#489cc0;height: 100vh;display: flex;align-items: center;}
+.todoContent{width: 750px; min-height: 300px; background: #fff;border:2px solid #222;box-shadow: 0 10px 10px rgba(0,0,0,0.1);padding:30px}
+.title{text-align: center;color:#222;padding-bottom: 15px}
+
+.formBox{display: flex;gap: 10px;}
+.formBox input[type="text"]{flex:7;height: 35px;box-sizing: border-box;padding-left: 10px;}
+.formBox input[type="submit"]{flex:1}
+
+.listForm{color:#489cc0;display: flex;justify-content: space-between;border-bottom: 1px solid #ccc;padding:15px 10px}
+.listForm label{display: flex; align-items: center; font-size: 18px;gap: 15px;}
+.listForm input[type='checkbox']{width: 17px;height: 17px;}
