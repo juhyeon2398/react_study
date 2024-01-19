@@ -6,6 +6,7 @@ const FormWrap = ({todoData,setTodoData,value,setValue}) => {
             id : Date.now(),
             title: value,
             checked : false,
+            modify : false,
         }
         setTodoData([...todoData,newData]);
         setValue('');
@@ -19,7 +20,7 @@ const FormWrap = ({todoData,setTodoData,value,setValue}) => {
         <form onSubmit={handleSubmit}>
             <div className="formBox">
                 <input type="text" value={value} onChange={handleChange} placeholder="새로운 작업을 입력해주세요." />
-                <input type="submit" value="추가" />
+                <input type="submit" value="&#43;" />
             </div>
         </form>
     )

@@ -1,13 +1,28 @@
 *{padding: 0;margin: 0;}
 
-.App{background:#489cc0;height: 100vh;display: flex;align-items: center;}
+.App{background:#489cc0;height: 100vh;display: flex;align-items: center;justify-content: center;}
 .todoContent{width: 750px; min-height: 300px; background: #fff;border:2px solid #222;box-shadow: 0 10px 10px rgba(0,0,0,0.1);padding:30px}
 .title{text-align: center;color:#222;padding-bottom: 15px}
 
 .formBox{display: flex;gap: 10px;}
-.formBox input[type="text"]{flex:7;height: 35px;box-sizing: border-box;padding-left: 10px;}
-.formBox input[type="submit"]{flex:1}
+.formBox input[type="text"]{flex:17;height: 35px;box-sizing: border-box;padding-left: 10px;}
+.formBox input[type="submit"]{flex:1;background: #489cc0;color:#fff;width: 35px;height: 35px;display: flex;justify-content: center;align-items: center;border:none;font-size: 22px;}
 
-.listForm{color:#489cc0;display: flex;justify-content: space-between;border-bottom: 1px solid #ccc;padding:15px 10px}
-.listForm label{display: flex; align-items: center; font-size: 18px;gap: 15px;}
-.listForm input[type='checkbox']{width: 17px;height: 17px;}
+.listBox{max-height: 462px; min-height: 231px; height: auto; overflow: auto;margin-top: 15px;}
+.listBox::-webkit-scrollbar{width: 8px;}
+.listBox::-webkit-scrollbar-thumb{background: #ccc;border-radius: 5px;}
+.listForm{color:#489cc0;display: flex;justify-content: space-between; align-items: center; border-bottom: 1px solid #ccc;padding:10px;}
+.listForm:first-of-type{border-top:1px solid #ccc;}
+.listForm label{display: flex; align-items: center; font-size: 16px;gap: 15px;flex: 11;}
+.listForm input[type='checkbox']{width: 19px;height: 19px;}
+.listForm p{display: block; width: 93%;}
+.listForm input[type='text']{width: 100%;padding:5px;box-sizing: border-box;}
+
+.btn {display: flex;gap: 10px;flex: 1;}
+.btn button{background: none;border:none;width: 25px;height: 25px;color:#489cc0;display: flex;justify-content: center;align-items: center;font-weight: bold;font-size: 18px;cursor: pointer;}
+.btn button.deleteBtn{font-size: 24px;font-weight: normal;}
+
+.controls{margin-top: 20px;line-height: 1.2;display: flex;justify-content: flex-end;}
+
+.removeChk{padding:3px 10px;color:#fff;font-size: 14px;background: #489cc0;border:none;}
+.removeChk b{font-size: 18px;}

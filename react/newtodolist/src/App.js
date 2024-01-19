@@ -3,6 +3,7 @@ import React,{useState} from 'react';
 import Header from './component/Header';
 import FormWrap from './component/FormWrap';
 import ListWrap from './component/ListWrap';
+import ListControl from './component/ListControl';
 
 function App() {
   const [todoData,setTodoData] = useState([]);
@@ -13,6 +14,7 @@ function App() {
         <Header todoData={todoData} setTodoData={setTodoData}/>
         <FormWrap todoData={todoData} setTodoData={setTodoData} value={value} setValue={setValue}/>
         <ListWrap todoData={todoData} setTodoData={setTodoData}/>
+        <ListControl todoData={todoData} setTodoData={setTodoData}/>
       </div>
     </div>
   );
