@@ -11,7 +11,7 @@ const ListControl = ({todoData,setTodoData}) => {
 
     return (
         <div className="controls">
-            <button className="removeChk" onClick={handleChkDelete} >선택 삭제 <b>&times;</b></button>
+            <button className="removeChk" onClick={handleChkDelete}>선택 삭제 <b>&times;</b></button>
         </div>
     )
 }

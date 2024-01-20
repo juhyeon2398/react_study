@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.blogInsert{
+    border:5px solid gray;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px
+}
+
+.blogInsert input[type="text"],
+.blogInsert textarea{margin-top: 15px;width: 100%;padding:10px;}
+.blogInsert textarea{min-height: 150px; resize: vertical;}
+.blogInsert select{padding:5px 10px;margin-top: 15px;}
+.blogInsert button{width: 390px;padding:10px 0;margin-top: 15px;}
+
+.blogList{border: 5px solid gray; width: 800px;margin: 30px auto;padding:30px 15px}
+.blogList h2{text-align: center;}
+.blogList .info{margin-top: 15px;background: #c8c8c8;padding: 20px}
+.blogList .content{background: #c8c8c8;border-top: 3px solid #999;padding: 20px}
