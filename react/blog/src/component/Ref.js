@@ -5,7 +5,6 @@ const Ref = () =>{
     const [count, setCount] = useState(0);
     const countRef = useRef(0);
     const inputRef = useRef("");
-    console.log('Ref  inputRef:', inputRef)
     let countLet = 0;
     
     const handleIns = () =>{

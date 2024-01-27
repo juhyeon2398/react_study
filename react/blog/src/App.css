@@ -17,3 +17,6 @@
 .blogList h2{text-align: center;}
 .blogList .info{margin-top: 15px;background: #c8c8c8;padding: 20px}
 .blogList .content{background: #c8c8c8;border-top: 3px solid #999;padding: 20px}
+.blogList .content textarea{width: 100%;min-height: 75px; resize: vertical;box-sizing: border-box;padding:5px}
+
+.btn{display: flex;gap: 5px;margin-top: 10px;}
