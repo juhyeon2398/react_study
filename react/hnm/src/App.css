@@ -1,0 +1,13 @@
+.login-btn{display: flex;justify-content: flex-end;margin: 30px;}
+
+.logo{display: flex;justify-content: center;}
+
+.menuGnb{display:flex; align-items: center; justify-content: space-between;padding: 0 30px; border-bottom: 2px solid #222;;}
+.menuList{display: flex; list-style: none; padding: 0;}
+.menuList li{padding: 20px;}
+
+.search{margin:30px;border-bottom: 1px solid #222;}
+.search input{border: none;outline: none;padding-left: 10px;}
+
+.itemType{display: flex;gap:10px;}
+.itemType span {border:1px solid #ccc;border-radius: 5px;padding:0 5px}

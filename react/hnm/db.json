@@ -1,0 +1,85 @@
+{
+    "products": [
+        { 
+            "id": 0,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/78/27/7827255cfc526fdbfb669fc6fc13f725e5bc7a34.jpg],origin[dam],category[ladies_cardigansjumpers_cardigans],type[LOOKBOOK],res[z],hmver[1]&call=url[file:/product/main]",
+            "title": "파인 니트 가디건",
+            "price": 19900,
+            "new": true,
+            "choice":true,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 1,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/c4/44/c4440a74d523532fa873c5a91b7008a7a2667c2d.jpg],origin[dam],category[ladies_jeans],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "와이드 하이웨이스트 진",
+            "price": 49900,
+            "new": true,
+            "choice":false,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 2,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/8b/24/8b244fc8b3a63ae087e75f4f41cab301c5a6865a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "와이드 하이웨이스트 진",
+            "price": 49900,
+            "new": false,
+            "choice":true,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 3,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/c8/92/c89211007d7bc256d63f794684f8338ffbcdc122.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "더블 브레스티드 트렌치코트",
+            "price": 69900,
+            "new": false,
+            "choice":false,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 4,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/7c/8f/7c8fdf2a398f98c3f6fa3e1e7724b607184c168b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "부클레 재킷 드레스",
+            "price": 79900,
+            "new": true,
+            "choice":false,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 5,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/32/17/3217140614a6292ee1b64659e94173f110bfe96a.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "부츠컷 하이웨이스트 진",
+            "price": 49900,
+            "new": false,
+            "choice":true,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 6,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/3c/22/3c2242911941626b3c818e3dcf754818f852ad37.jpg],origin[dam],category[ladies_basics_cardigansjumpers],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "파인 니트 가디건",
+            "price": 19900,
+            "new": false,
+            "choice":false,
+            "size" : ["S","M","L"],
+            "view": 3
+        },
+        { 
+            "id": 7,
+            "img": "https://lp2.hm.com/hmgoepprod?set=source[/37/7f/377f1997e8c143d7c78ad1bfd1e5f7abb7ce0dca.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+            "title": "하이웨이스트 테일러드 팬츠",
+            "price": 29900,
+            "new": true,
+            "choice":true,
+            "size" : ["S","M","L"],
+            "view": 3
+        }
+        
+    ]
+}
