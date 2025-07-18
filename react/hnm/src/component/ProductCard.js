@@ -15,7 +15,7 @@ const ProductCard = ({item}) => {
         <div className='itemType'>
             {item?.new === true ? <span>신상품</span> : ''}
             {item?.choice === true ? <span>추천상품</span> : ''}
-        </div>
+        </div> 
     </div>
   )
 }
