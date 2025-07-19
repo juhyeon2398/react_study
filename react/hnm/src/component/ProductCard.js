@@ -12,7 +12,7 @@ const ProductCard = ({item}) => {
         <img src={item?.img} alt="" />
         <div>{item?.title}</div>
         <div>\{item?.price}</div>
-        <div className='itemType'>
+        <div className='itemType'> 
             {item?.new === true ? <span>신상품</span> : ''}
             {item?.choice === true ? <span>추천상품</span> : ''}
         </div> 
